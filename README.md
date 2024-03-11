@@ -1,28 +1,58 @@
 # Starknet React ABI Form
 
-This package helps you render the forms via abi, and have input validations built-in to help you build faster your dapp on starknet.
+The Starknet React ABI Form package is now available for use. To speed up the development of your dapp on Starknet, this package makes it easier to render forms via ABI and includes built-in input validations.
 
-# Usage in You Dapp
+## Usage in Your Dapp
 
-- `npm install starknet-abi-forms`
-- In your Dapp Import the `ABIForm` and use it.
-  - Sample usage you can checkout at [/example/react-app/starknet-abi-form-driver](https://github.com/NethermindEth/starknet-abi-form/tree/dev/example/react-app/starknet-abi-form-driver/src/App.tsx)
-- To Import form styles
-  - `import "starknet-abi-forms/index.css";` from your usage.
-  - You can add your styling with as below by overriding css from a new css file.
-- Checkout sample react project at [/example/react-app/starknet-abi-form-driver](https://github.com/NethermindEth/starknet-abi-form/tree/dev/example/react-app/starknet-abi-form-driver/)
+1. **Install Package**: 
+  ```shell
+    npm install starknet-abi-forms
+  ```
 
-# Using Custom CSS
+2. **Import and Use ABIForm in Your Dapp**:
+- Sample usage can be found [here](https://github.com/NethermindEth/starknet-abi-form/tree/dev/example/react-app/starknet-abi-form-driver/src/App.tsx).
 
-- [here](https://github.com/NethermindEth/starknet-abi-form/tree/dev/custom_css.md)
+3. **Import Form Styles**:
+- Import the styles:
+  ```javascript
+  import "starknet-abi-forms/index.css";
+  ```
+- Override the CSS rules in your own CSS file to alter the styling.
 
-# Building Locally
+4. **Check Out Sample React Project**:
+- Explore a sample React project [here](https://github.com/NethermindEth/starknet-abi-form/tree/dev/example/react-app/starknet-abi-form-driver/).
 
-- `pnpm install` - to install dependencies initially
-- `pnpm dev` - to run in development mode in storybook
-- `yalc publish` - to publish to local pnpm store
+## Using Custom CSS
 
-# RoadMap
+Tailor the form styles to your personal preferences. Find out more here about utilizing customized CSS [here](https://github.com/NethermindEth/starknet-abi-form/tree/dev/custom_css.md).
 
-- Support enums in function params
+## Building Locally
+
+To build and run the package locally:
+
+1. **Install Dependencies**:
+  ```shell
+    pnpm install
+  ```
+
+2. **Run in Development Mode**:
+  ```shell
+    pnpm dev
+  ```
+
+This will launch Storybook for development.
+
+3. **Publish to Local PNPM Store**:
+  ```shell
+    yalc publish
+  ```
+
+
+## Roadmap
+
+Here are the upcoming features that are on our roadmap:
+
+- Support for enums in function params
 - Support for Cairo v1, v0
+
+Watch this space for updates! Please contact us with any queries or recommendations. Happy coding!
